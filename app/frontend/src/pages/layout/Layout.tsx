@@ -41,7 +41,7 @@ const Layout = () => {
                         </ul>
                     </nav>
                     {/* Replace text with Pregis logo */}
-                    <img src={pregisLogo} alt="Pregis logo" className={styles.headerRightLogo} width="150px" height="50px" />
+                    <img src={pregisLogo} alt="Pregis logo" className={styles.headerRightLogo} width="120px" height="40px" />
                     {useLogin && <LoginButton />}
                 </div>
             </header>

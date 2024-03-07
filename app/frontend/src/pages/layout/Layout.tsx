@@ -1,6 +1,6 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 import github from "../../assets/github.svg";
-import pergis from "../../assets/pergis.svg";
+import pregis from "../../assets/pregis.png";
 import styles from "./Layout.module.css";
 import { useLogin } from "../../authConfig";
 import { LoginButton } from "../../components/LoginButton";
@@ -12,7 +12,7 @@ const Layout = () => {
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
                         {/* Replace text with image */}
-                        <img src={pergis} alt="Pregis logo" className={styles.pregisLogo} />
+                        <img src={pregis} alt="Pregis logo" className={styles.pregisLogo} />
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>

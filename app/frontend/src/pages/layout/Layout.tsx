@@ -12,7 +12,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <img src={intelliswift} alt="Intelliswift logo" className={styles.intelliswift} width="100px" height="50px" />
+                        <img src={intelliswift} alt="Intelliswift logo" className={styles.intelliswift} width="300px" height="50px" />
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -41,7 +41,7 @@ const Layout = () => {
                         </ul>
                     </nav>
                     {/* Replace text with Pregis logo */}
-                    <img src={pregisLogo} alt="Pregis logo" className={styles.headerRightLogo} width="100px" height="50px" />
+                    <img src={pregisLogo} alt="Pregis logo" className={styles.headerRightLogo} width="300px" height="50px" />
                     {useLogin && <LoginButton />}
                 </div>
             </header>

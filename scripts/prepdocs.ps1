@@ -90,4 +90,4 @@ $argumentList = "./scripts/prepdocs.py $dataArg --verbose " + `
 
 $argumentList
 
-Start-Process -FilePath $venvPythonPath -ArgumentList $argumentList -Wait -NoNewWindow
+Start-Process -FilePath $venvPythonPath -ArgumentList $argumentList -Wait -NoNewWindow 

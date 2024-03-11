@@ -281,10 +281,8 @@ const Chat = () => {
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
                             <img src={chatlogo} alt="Chat logo" />
-                            {/* <img src="images/chatbot-agent-img.gif" alt="intelliswift chatbot agent" width={"30"} height={"30"}/> */}
-                            {/* <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" /> */}
-                            <h1 className={styles.chatEmptyStateTitle}>Search within the equipment manual</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>Find answers about the Airspeed Turbo Machine</h2>
+                            <h1 className={styles.chatEmptyStateTitle}>Find answers about Pregis products</h1>
+                            <h2 className={styles.chatEmptyStateSubtitle}>A Heritage of Innovation</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
                         </div>
                     ) : (
@@ -350,7 +348,7 @@ const Chat = () => {
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
-                            placeholder="Type a new question (e.g. Where can I find the specific potential hazards and safety instructions for the machine?)"
+                            placeholder="Type a new question (e.g. What products does Pregis offer?)"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                         />

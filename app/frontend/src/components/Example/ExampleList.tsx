@@ -3,15 +3,15 @@ import { Example } from "./Example";
 import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
-    "What is included in my Northwind Health Plus plan that is not in standard?",
-    "What happens in a performance review?",
-    "What does a Product Manager do?"
+    "Can I remove safety devices from the equipment?",
+    "What is the safe procedure for clearing the machine of web wraps or jams?",
+    "How should I keep my body parts and clothing safe while operating the equipment?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
-    "Compare the impact of interest rates and GDP in financial markets.",
-    "What is the expected trend for the S&P 500 index over the next five years? Compare it to the past S&P 500 performance",
-    "Can you identify any correlation between oil prices and stock market trends?"
+    "What precautions should I take when inspecting or adjusting the machine while it is in motion?",
+    "Who is authorized to maintain/clean electrical and mechanical parts of the machine?",
+    "What should I do before working with the machine if I have questions after reading the manual?"
 ];
 
 interface Props {
